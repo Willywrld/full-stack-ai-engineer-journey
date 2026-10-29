@@ -48,7 +48,7 @@
 
 ## Phase 1 — Python Language Core
 
-- [ ] 1.1 Syntax, indentation, comments, statements, expressions
+- [ ] 1.1 Syntax, indentation, comments, statements, expressions(./notes/phase-01-core/01.1-comments-blank-lines-indentation-as-grammar.md)
 - [ ] 1.2 Variables, names, assignment, dynamic typing, mutability
 - [ ] 1.3 Built-in types: None, bool, int, float, complex, str, bytes, bytearray
 - [ ] 1.4 Operators: arithmetic, comparison, logical, bitwise, membership, identity, precedence

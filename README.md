@@ -1,3 +1,6 @@
+> **⚠️ Disclaimer**
+> This is a personal learning log. The notes, code, and explanations within this repository are written as I learn. They may contain simplifications, incomplete thoughts, or errors as I progress through the curriculum. I will continuously update and refactor them as my understanding deepens.
+
 # 🚀 Full Stack + AI/ML Engineering Journey
 
 Welcome to my public learning log. I am building a data-capable AI/ML engineer skillset from the ground up.

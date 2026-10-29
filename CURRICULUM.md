@@ -1,72 +1,72 @@
 # 🗺️ Master Curriculum
 
-**How this works:** 
-- `[ ]` = Not started. `[x]` = Notes written and reviewed.
-- Click the linked title to open your notes.
-- To add a link, format it like this: `- [x] [1.1 Title](notes/phase-01-core/01.1-filename.md)`
+**Quick Search (Phases):**
+[Phase 0](#phase-0--setup--professional-baseline) | [Phase 1](#phase-1--python-language-core) | [Phase 2](#phase-2--dsa--problem-solving-in-python) | [Phase 3](#phase-3--testing-debugging-quality) | [Phase 4](#phase-4--backend-engineering) | [Phase 5](#phase-5--frontend-for-full-stack) | [Phase 6](#phase-6--databases--data-modeling) | [Phase 7](#phase-7--devops-cloud-cicd) | [Phase 8A](#phase-8a--data-engineering) | [Phase 8B](#phase-8b--statistical-analysis-inference--causal-reasoning) | [Phase 9](#phase-9--math-for-ai) | [Phase 10](#phase-10--machine-learning) | [Phase 11](#phase-11--deep-learning) | [Phase 12](#phase-12--nlp-llms-transformers) | [Phase 13](#phase-13--ai-engineering-rag-agents-evals) | [Phase 14](#phase-14--mlopsllmops) | [Phase 15](#phase-15--system-design--architecture) | [Phase 16](#phase-16--security-auth-privacy) | [Phase 17](#phase-17--interview--career) | [Phase 18](#phase-18--capstones)
+
+**Legend:** `- [ ]` = Not started. `- [x]` = Completed with notes linked.
 
 ---
 
 ## Phase 0 — Setup & Professional Baseline
-- [ ] 0.1 How Python executes code
-- [ ] 0.2 Install Python, pyenv, venv
-- [ ] 0.3 REPL, scripts, VS Code
-- [ ] 0.4 Project layout, pyproject.toml
-- [ ] 0.5 Git, GitHub, commits
-- [ ] 0.6 Reading docs, errors
-- [ ] 0.7 Linting, formatting, type checking
-- [ ] 0.8 Build-in-public, proof
-- [ ] 0.9 Notebook tooling (Jupyter, papermill)
-- [ ] 0.10 Data analysis tooling (statsmodels, seaborn)
+- [ ] 0.1 How Python executes code: source, AST, bytecode, CPython, PVM
+- [ ] 0.2 Install Python, pyenv, venv, pip, uv, poetry
+- [ ] 0.3 REPL, scripts, notebooks, VS Code, debugger
+- [ ] 0.4 Project layout, pyproject.toml, requirements, lockfiles
+- [ ] 0.5 Git, GitHub, commits, branches, PRs, code review
+- [ ] 0.6 Reading docs, PEPs, errors, Stack Overflow correctly
+- [ ] 0.7 Linting, formatting, type checking, pre-commit
+- [ ] 0.8 Build-in-public, progress tracking, proof of work
+- [ ] 0.9 Notebook tooling: Jupyter, papermill, nbval, nbconvert
+- [ ] 0.10 Data analysis tooling: statsmodels, seaborn, plotly
 
 ---
 
 ## Phase 1 — Python Language Core
-- [x] [1.1 Syntax, indentation, comments](notes/phase-01-core/01.1-comments-blank-lines-indentation.md)
-- [ ] 1.2 Variables, names, assignment
-- [ ] 1.3 Built-in types
-- [ ] 1.4 Operators
-- [ ] 1.5 I/O, print, input, f-strings
-- [ ] 1.6 Control flow
-- [ ] 1.7 Loops
-- [ ] 1.8 Iterables, iterators, range
-- [ ] 1.9 Lists: methods, slicing, comprehensions
+- [x] [1.1 Syntax, indentation, comments, statements, expressions](notes/phase-01-core/01.1-comments-blank-lines-indentation-as-grammar.md)
+- [ ] 1.2 Variables, names, assignment, dynamic typing, mutability
+- [ ] 1.3 Built-in types: None, bool, int, float, complex, str, bytes, bytearray
+- [ ] 1.4 Operators: arithmetic, comparison, logical, bitwise, membership, identity, precedence
+- [ ] 1.5 I/O, print, input, f-strings, formatting
+- [ ] 1.6 Control flow: if, elif, else, match/case
+- [ ] 1.7 Loops: for, while, break, continue, else
+- [ ] 1.8 Iterables, iterators, range, enumerate, zip, reversed, sorted
+- [ ] 1.9 Lists: methods, slicing, comprehensions, copying
 - [ ] 1.10 Tuples, namedtuple, unpacking
-- [ ] 1.11 Dictionaries
-- [ ] 1.12 Sets, frozenset
-- [ ] 1.13 Strings deep: Unicode, regex intro
-- [ ] 1.14 Functions: args, kwargs, defaults
-- [ ] 1.15 Scope: LEGB, global, nonlocal
-- [ ] 1.16 Lambda, map, filter, reduce
+- [ ] 1.11 Dictionaries: methods, comprehensions, merge, ordering
+- [ ] 1.12 Sets, frozenset, operations
+- [ ] 1.13 Strings deep: Unicode, encoding, methods, regex intro
+- [ ] 1.14 Functions: def, return, parameters, *args, **kwargs, defaults, keyword-only
+- [ ] 1.15 Scope: LEGB, global, nonlocal, closures
+- [ ] 1.16 Lambda, map, filter, reduce, functools
 - [ ] 1.17 Comprehensions and generators
 - [ ] 1.18 Iterators and generator functions
 - [ ] 1.19 Decorators
 - [ ] 1.20 Context managers
-- [ ] 1.21 Exceptions
+- [ ] 1.21 Exceptions: try/except/else/finally, raise, custom exceptions
 - [ ] 1.22 Modules and imports
-- [ ] 1.23 Packages and __init__
-- [ ] 1.24 Virtual environments
-- [ ] 1.25 File I/O, pathlib, os
+- [ ] 1.23 Packages, __init__, namespace packages
+- [ ] 1.24 Virtual environments and dependency management
+- [ ] 1.25 File I/O, pathlib, os, shutil
 - [ ] 1.26 JSON, CSV, XML, YAML, pickle
-- [ ] 1.27 Dataclasses, attrs, Pydantic
-- [ ] 1.28 Type hints: typing, mypy
-- [ ] 1.29 OOP: classes, objects, methods
-- [ ] 1.30 Inheritance, MRO, super
-- [ ] 1.31 Dunder methods
+- [ ] 1.27 Dataclasses, attrs, Pydantic intro
+- [ ] 1.28 Type hints: typing, mypy, pyright
+- [ ] 1.29 OOP: classes, objects, attributes, methods
+- [ ] 1.30 Inheritance, MRO, super, composition
+- [ ] 1.31 Dunder methods, operator overloading
 - [ ] 1.32 Properties, descriptors, __slots__
 - [ ] 1.33 Metaclasses, ABCs, protocols
-- [ ] 1.34 Design patterns
-- [ ] 1.35 Testing: unittest, pytest
-- [ ] 1.36 Debugging, logging
-- [ ] 1.37 Concurrency: threading, multiprocessing
-- [ ] 1.38 Async: asyncio, async/await
-- [ ] 1.39 Performance: profiling, timeit
-- [ ] 1.40 Python internals: memory, GC
+- [ ] 1.34 Design patterns in Python
+- [ ] 1.35 Testing: unittest, pytest, fixtures, mocks
+- [ ] 1.36 Debugging, logging, warnings, assertions
+- [ ] 1.37 Concurrency: threading, multiprocessing, GIL
+- [ ] 1.38 Async: asyncio, async/await, tasks, queues
+- [ ] 1.39 Performance: profiling, timeit, cProfile, optimization
+- [ ] 1.40 Python internals: memory, GC, refcount, bytecode
 
 ---
 
 ## Phase 2 — DSA & Problem Solving in Python
-- [ ] 2.1 Complexity: Big O
+- [ ] 2.1 Complexity: Big O, time, space, amortized
 - [ ] 2.2 Arrays and lists
 - [ ] 2.3 Strings algorithms
 - [ ] 2.4 Hash maps and sets
@@ -103,7 +103,7 @@
 - [ ] 3.1 Unit testing
 - [ ] 3.2 Integration testing
 - [ ] 3.3 End-to-end testing
-- [ ] 3.4 Test doubles, mocks, stubs
+- [ ] 3.4 Test doubles, mocks, stubs, fakes
 - [ ] 3.5 Property-based testing
 - [ ] 3.6 Coverage and mutation testing
 - [ ] 3.7 Debugging strategies
@@ -116,7 +116,7 @@
 ---
 
 ## Phase 4 — Backend Engineering
-- [ ] 4.1 HTTP, REST, status codes
+- [ ] 4.1 HTTP, REST, status codes, headers
 - [ ] 4.2 FastAPI basics
 - [ ] 4.3 Pydantic models and validation
 - [ ] 4.4 Dependency injection
@@ -184,7 +184,7 @@
 - [ ] 6.13 Migrations
 - [ ] 6.14 Backups and recovery
 - [ ] 6.15 Database capstone
-- [ ] 6.16 Analytics SQL: window functions, CTEs, cohort, funnel
+- [ ] 6.16 Analytics SQL: window functions, CTEs, cohort analysis, funnel analysis
 
 ---
 
@@ -195,7 +195,7 @@
 - [ ] 7.4 Docker Compose
 - [ ] 7.5 CI/CD with GitHub Actions
 - [ ] 7.6 Cloud basics: AWS/GCP/Azure
-- [ ] 7.7 Deployment: Render, Railway, Fly.io
+- [ ] 7.7 Deployment: Render, Railway, Fly.io, Vercel
 - [ ] 7.8 Nginx and reverse proxy
 - [ ] 7.9 Environment variables and secrets
 - [ ] 7.10 Monitoring and logging
@@ -218,29 +218,29 @@
 - [ ] 8.8 Spark basics
 - [ ] 8.9 Streaming
 - [ ] 8.10 Data quality
-- [ ] 8.11 Visualization (matplotlib, seaborn)
-- [ ] 8.12 Statistical analysis (baseline)
-- [ ] 8.13 A/B testing (baseline)
+- [ ] 8.11 Visualization (engineering-flavored)
+- [ ] 8.12 Statistical analysis (baseline intro)
+- [ ] 8.13 A/B testing (baseline intro)
 - [ ] 8.14 Feature stores
 - [ ] 8.15 Data engineering capstone
 
 ---
 
-## Phase 8B — Statistical Analysis & Causal Reasoning
+## Phase 8B — Statistical Analysis, Inference & Causal Reasoning
 ### Track 1 — Foundations
 - [ ] 8b.1 Descriptive statistics & data profiling
 - [ ] 8b.2 Probability distributions in practice
-- [ ] 8b.3 Sampling, CLT, standard error
+- [ ] 8b.3 Sampling, CLT, standard error, bootstrap
 - [ ] 8b.4 Confidence intervals
 - [ ] 8b.5 Hypothesis testing fundamentals
 - [ ] 8b.6 Common statistical tests
 - [ ] 8b.7 Multiple comparisons & FDR
-- [ ] 8b.8 Exploratory Data Analysis (EDA)
+- [ ] 8b.8 Exploratory Data Analysis (EDA) workflow
 - [ ] 8b.9 Visualization for analysis
 
 ### Track 2 — Regression & Experimentation
 - [ ] 8b.10 Regression as inference (statsmodels)
-- [ ] 8b.11 Regression diagnostics
+- [ ] 8b.11 Regression diagnostics & assumptions
 - [ ] 8b.12 Logistic regression as inference
 - [ ] 8b.13 GLMs beyond logistic
 - [ ] 8b.14 A/B testing: design

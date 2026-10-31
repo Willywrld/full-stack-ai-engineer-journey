@@ -134,7 +134,7 @@ In the first 2–3 lines:
 
 Then produce Chunk 1 at full depth. End with the checkpoint block and stop.
 
-CONCEPT TO REDO:
+CONCEPT TO WORK ON:
 Atom ID: [PASTE ID HERE]
 Atom Title: [PASTE TITLE HERE]
 Parent Phase: [PASTE PHASE HERE]

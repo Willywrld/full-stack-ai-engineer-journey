@@ -20,7 +20,7 @@
 ---
 
 ## Phase 1 — Python Foundations
-- [x] [1.1 Syntax, indentation, comments, statements](notes/phase-01-core/1.1-syntax-indentation-comments-statements.md)
+- [x] [1.1 Syntax, indentation, comments, statements](notes/phase-01-core/01.1-syntax-indentation-comments-statements.md)
 - [ ] 1.2 Variables, names, assignment, dynamic typing
 - [ ] 1.3 Built-in types: int, float, str, bool, None
 - [ ] 1.4 Basic Operators: arithmetic, comparison, logical
